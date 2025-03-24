@@ -52,7 +52,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         //Ultime Uscite
-
         val latestReleaseRecyclerView = findViewById<RecyclerView>(R.id.latestReleaseRecyclerView)
         val latestReleaseProductAdapter = ProductAdapter(products)
         latestReleaseRecyclerView.apply {
